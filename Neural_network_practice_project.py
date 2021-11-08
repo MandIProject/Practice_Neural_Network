@@ -2,7 +2,8 @@ import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
 
-data = pd.read_csv('D:/Practice/Neural_Network/training_data/train.csv')
+#training dataset taken from Kaggle Digit Recognizer MNIST dataset
+data = pd.read_csv('./training_data/train.csv')
 data.head()
 
 data = np.array(data)
